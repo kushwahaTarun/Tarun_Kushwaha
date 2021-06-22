@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1619963258837-b83f3406cfcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center_div {
+  width: 30%;
+  height: 400px;
+  padding: 25px;
+  margin: 150px auto;
+  border: 3px solid lightseagreen;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px silver;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.center_div h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  margin: 0 0 0 20px;
+  color: lightseagreen;
+}
+
+.center_div input[type="text"] {
+  font-family: "Poppins", sans-serif;
+  border-width: 2.5px;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: solid;
+  font-size: 15px;
+  transition: all 10px linear;
+  padding: 2px 20px;
+  margin: 0 0 0 20px;
+}
+.center_div input[type="text"]:hover {
+  border-bottom-color: blueviolet;
+}
+
+.center_div .newBtn {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: lightseagreen;
+  margin: 0 0 0 35px;
+  font-weight: bolder;
+}
+
+.center_div .newBtn:hover {
+  color: lightseagreen;
+  background-color: white;
+}
+
+li {
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  text-transform: capitalize;
+  display: inline-block;
+  position: relative;
+  bottom: 6px;
+  left: 5px;
+  color: darkmagenta;
+}
+
+.listDeco {
+  display: inline-block;
+  width: 300px;
+  margin: 0 0 0 20px;
+}
+
+.delIcon {
+  color: black;
+  transition: all 0.3s linear;
+}
+
+.delIcon:hover {
+  color: red;
+}
